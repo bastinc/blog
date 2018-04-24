@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>My blog</title>
+        <link>http://127.0.0.1/blog/html/</link>
+        <description>Thoughts of a dev</description>
+        <language>en-us</language>
+        <pubDate>Tue, 24 Apr 2018 00:00:00 +0200</pubDate>
+        
+        <item>
+            <link>http://127.0.0.1/blog/html/2018/04/24/pipenv.html</link>
+            <guid>http://127.0.0.1/blog/html/2018/04/24/pipenv.html</guid>
+            <title><![CDATA[Pipenv]]></title>
+            <description><![CDATA[<h1>Pipenv</h1>
+<p>Installer pipenv</p>
+<div class="highlight-default"><div class="highlight"><pre><span/><span class="n">sudo</span> <span class="n">pip3</span> <span class="n">install</span> <span class="n">pipenv</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>Créer un environnement virtuel pour le projet en spécifiant la version de python(Pour peu que la version soit installée sur le système)</li>
+</ol>
+<div class="highlight-default"><div class="highlight"><pre><span/><span class="n">pipenv</span> <span class="o">--</span><span class="n">three</span>
+</pre></div>
+</div>
+<p>Un fichier “Pipfile” est généré ainsi qu’un fichier Pipfile.lock</p>
+<ol class="arabic simple" start="2">
+<li>Ouvrir l’environnement virtuel dans un shell</li>
+</ol>
+<div class="highlight-default"><div class="highlight"><pre><span/><span class="n">pipenv</span> <span class="n">shell</span>
+</pre></div>
+</div>
+<p>3a) Installer à partir d’un fichier Pipfile existant</p>
+<div class="highlight-default"><div class="highlight"><pre><span/><span class="n">pipenv</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>3b) Installer une nouvelle librairie</p>
+<div class="highlight-default"><div class="highlight"><pre><span/><span class="n">pipenv</span> <span class="n">install</span> <span class="p">[</span><span class="n">Library_name</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>L’environnement virtuel créé se trouve dans le dossier ~/.local/share/virtualenvs</p>
+]]></description>
+             <pubDate>Tue, 24 Apr 2018 00:00:00 +0200</pubDate>
+        </item>
+    
+        <item>
+            <link>http://127.0.0.1/blog/html/2018/04/24/hello_world.html</link>
+            <guid>http://127.0.0.1/blog/html/2018/04/24/hello_world.html</guid>
+            <title><![CDATA[Hello World!]]></title>
+            <description><![CDATA[Hello World!]]></description>
+             <pubDate>Tue, 24 Apr 2018 00:00:00 +0200</pubDate>
+        </item>
+    
+    </channel>
+</rss>
